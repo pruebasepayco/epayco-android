@@ -228,7 +228,7 @@ public class Charge {
         return splitpayment;
     }
 
-    public void setSplitpayment(Boolean splitpayment) {
+    public void setSplitpayment(String splitpayment) {
         this.splitpayment = splitpayment;
     }
 
