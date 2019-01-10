@@ -30,7 +30,7 @@ public class Pse {
     String city;
     String depto;
     String address;
-    boolean splitpayment;
+    String splitpayment;
     String split_app_id;
     String split_merchant_id;
     String split_type;

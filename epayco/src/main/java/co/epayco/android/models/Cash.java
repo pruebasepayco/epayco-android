@@ -31,7 +31,7 @@ public class Cash {
     String depto;
     String country;
     String address;
-    boolean splitpayment;
+    String splitpayment;
     String split_app_id;
     String split_merchant_id;
     String split_type;
