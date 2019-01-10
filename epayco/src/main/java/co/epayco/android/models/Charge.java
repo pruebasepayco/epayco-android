@@ -34,7 +34,7 @@ public class Charge {
     String splitpayment;
     String split_app_id;
     String split_merchant_id;
-    String split_type;
+    int split_type;
     String split_primary_receiver;
     String split_primary_receiver_fee;
     
@@ -252,7 +252,7 @@ public class Charge {
         return split_type;
     }
 
-    public void setSplit_type(String split_type) {
+    public void setSplit_type(int split_type) {
         this.split_type = split_type;
     }
     
